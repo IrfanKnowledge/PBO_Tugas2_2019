@@ -1,0 +1,53 @@
+Tulis jawaban no 6 disini:
+NIM: 1603719
+NAMA: Irfan Muhammad Faisal
+
+1. Menu tidak memiliki Error Handling
+2. Perbandingan ID barang akan lebih aman menggunakan
+   method equals dari Class String daripada
+   menggunakan tanda '=='
+
+3. Penggunaan Array akan
+   memberi batasan input Barang yang
+   tidak fleksible
+
+   dan akan susah jika terjadi penghapusan barang
+   misal setelah makanan penambah kesehatan habis di makan,
+   jika kita menambah lagi barang,
+   barang hanya akan dimasukkan pada index yang sesuai dengan jumlah barang
+
+   sehingga lebih baik menggunakan
+   ArrayList<>()
+
+4. Class Barang saja tidak cukup,
+   karena Makanan memiliki sifat berbeda,
+   yaitu menambah kesehatan.
+   sehingga lebih baik dibuatkan
+   inheritance Barang tersebut khusus
+   untuk makanan
+   yg memiliki atribut
+   int kesehatan;
+   sehingga kita bisa fleksible
+   membuat jenis2 makanan
+   yang memuat beragam nilai penambah kesehatan
+
+5. Belum terdapat pengondisian Jika objek seperti Pintu, Jendela dll
+   telah terbuka oleh barang tertentu, maka harusnya penggunaan kembali barang tersebut
+   tidak bisa karena sudah terbuka.
+   (Status isTrekunci = false tidak digunakan pada pengondisian apapun)
+
+6. Untuk menggunakan makanan lebih baik jika membuat atribut baru
+   seperti idBarangMakanan = "makanan"
+   karena di setiap adegan pasti bisa menggunakan makanan
+   selama masih tersedia makanan di kantong
+
+7. Menurut saya untuk meja jika memang tujuannya untuk sekedar mencek barang
+   yang ada di sekitarnya, buatkan class meja nya
+   kemudian berikan constructor nilai default narasinya sehingga
+   setiap meng-instance meja tersebut cukup memikirkan
+   jumlah barang yang tersedia
+   dan jumlah pilihan berpindah adegan yang tersedia
+
+8. Player tidak diberikan atribut Nama;
+   sehingga di setiap narasi tokoh utama harus selalu ditulis ulang dengan konsisten
+   lebih baik tambahkan atribut Nama yang telah di-inisiasi

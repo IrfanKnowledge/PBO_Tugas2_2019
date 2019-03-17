@@ -1,0 +1,34 @@
+Source code akan diperiksa kemiripannya secara otomatis.
+Pelaku kecurangan (source dan dest) akan mendapat sanksi sama.
+
+Sebelum mengerjakan soal jalankan GameEngine.main() untuk melihat bagaimana game dijalankan.
+Selanjutnya pelajari kelas GameEngine, Adegan, Pilihan, Player, dst pahami fungsi dan hubungan kelas tersebut.
+
+1. (5) Lengkapi Player.printIdentitas() dengan  nim,nama anda dan pernjanjian
+        "Saya bernjanji tidak berlaku curang dan/atau membantu orang lain berbuat curang"
+2. (15) Tambahkan adegan berjalan ke jendela. Jendela tsb terkunci tapi sepertinya bisa dicungkil.
+3. (25) - Tambahkan item obeng, letakan di pintu (jadi saat didepan pintu dan pilih "lihat barang sekitar", obeng yg muncul)
+        - Buat agar obeng tersebut bisa membuka jendela
+4. (15) Buat class adegan baru "keluar koridor" (lihat AdeganPintu.gunakanBarang) yang akan mengakhiri
+        permainan (player.isSelesai=true)
+5. (30) - Buat mekanisme agar kesehatan pemain berkurang (Player.kesehatan) setiap kali pindah adegan dan menggunakan
+          barang (mensimulasikan capek). Jika kesehatan==0 maka permainan selesai.
+        - Tambahkan item makanan yang jika digunakan dapat menambah kesehatan player, letakan item ini di meja.
+6. (10) Tuliskan (di file jawaban.txt) apa yang menjadi kelemahan rancangan dan implmentasi class pada soal ini
+        dan apa perbaikan yang dapat dilakukan.
+
+
+Bonus:
+1. (10) ubah Adegan.arrPilihan menjadi arraylist.
+2. (20) tambahkan kemunculan zombie setelah keluar dari jendela. Tambahkan item senjata di meja.
+        Silakan implementasikan pertempuran dengan zombie (bebas sesuai kreativitas).
+        Boleh modifikasi class yg ada sesuai kebutuhan (tambahkan commment).
+
+
+zip semua direktori dan kirim melalui email ke yudi@upi.edu
+Subjek email: quiz-2-pbo-ilkom-nim-nama
+Pastikan attachment terkirim.
+
+
+
+
